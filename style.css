@@ -1,0 +1,47 @@
+body{
+    background-color: lavender;
+    width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    background-color: red;
+    color: white;
+    border: 6px solid darkgreen;
+    padding: 12px;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 4em;
+    background-color: #228b22;
+    color:ivory;
+    margin: 0;
+    padding: 16px;
+
+}
+
+.box {
+    background-color: #deb887;
+    padding: 12px;
+    border-radius: 0 0 16px 16px;
+}
+nav {
+    background-color: darkgreen;
+    padding: 0 16px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+nav a{
+    color: ivory;
+}
+nav a:hover{
+    coler: gray;
+    font-size: 48px;
+}
